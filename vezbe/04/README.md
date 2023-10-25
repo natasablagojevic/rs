@@ -44,3 +44,4 @@
 
 - Na projektu se ocekuje da ima odgovornosi o enkapsulaciji, itd..
 
+- Zaduzenje roditelja jeste da vodi racuna kolika su bu deca, i gde su.
