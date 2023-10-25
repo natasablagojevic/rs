@@ -20,3 +20,6 @@
 - **NE DIRATI XML**
 
 - **C++20**
+
+- Koristiti Qt promenljive: QSharePtr, QString, QMap, QVector, ...
+- pametni pokazivaci ne rade sa Qt jer je prastar
