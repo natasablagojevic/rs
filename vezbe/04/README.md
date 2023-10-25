@@ -14,3 +14,9 @@
 
 
 - za graficki interfejs: Forms -> MainWindowGUI
+- Layout: FormLayout 
+- Grid; (Push)Buttons;
+
+- *NE DIRATI XML*
+
+- *C++20*
