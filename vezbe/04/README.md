@@ -17,6 +17,6 @@
 - Layout: FormLayout 
 - Grid; (Push)Buttons;
 
-- *NE DIRATI XML*
+- **NE DIRATI XML**
 
-- *C++20*
+- **C++20**
