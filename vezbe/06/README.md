@@ -54,7 +54,12 @@
 - Strelice u dijagramu sekvenci
     - **zahtev** : debela puna linija sa punom strelicom
     - **odgovor** : isprekidana linija sa praznom strelicom
-    
+
+
+- Kada pravimo UML dijagram kalsa bitno je:
+    - da gledamo sta se nonstop javlja
+    - neke bitne imenice
+    - 
 
 ### Za projekat: 
 
