@@ -3,6 +3,16 @@
 - prvi presek stanja: do 02.12. ili 03.12 rok za predaju prve faze projekta
     - dijagrami, skice, dokumentacije
     - na main-u imati direktorijum
+    - ocenjuje se:
+        - konvencija
+        - forma
+        - nazubljenost
+        - strelice
+        - boldovanost (ako treba nesto da bude boldovano)
+        
+    - ne ocenjuje se:
+        - arhitektura
+        - implementacija
 
 - Use Case :
     - kako se sve nasa app koristi
