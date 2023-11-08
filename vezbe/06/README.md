@@ -9,7 +9,7 @@
         - nazubljenost
         - strelice
         - boldovanost (ako treba nesto da bude boldovano)
-        
+
     - ne ocenjuje se:
         - arhitektura
         - implementacija
@@ -50,6 +50,11 @@
 - Dodatne informacije
     - bilo sta sto nam padne napamet
     - ne mora da ima veze sa ostalim stvarima, ali je nesto sto postoji kao funkiolnalnost
+
+- Strelice u dijagramu sekvenci
+    - **zahtev** : debela puna linija sa punom strelicom
+    - **odgovor** : isprekidana linija sa praznom strelicom
+    
 
 ### Za projekat: 
 
