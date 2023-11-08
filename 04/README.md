@@ -63,4 +63,15 @@
 	- povezivanje scene i pogleda vrsimo preko:
 		- **ui->gvTabela->setSene(m_tabela);**
 
+	- treba prvo proveriti da li je **dynamic_cast** uspeo pa onda raditi, ince bi trebalo baciti exception 
+
+
+	- postavljanje flegova: **GraphicsItemFlag::ItemIsSelectable** i **GraphicsItemFlag::ItemIsMovable** 
+
+	- nasledjujemo klasu: **public QGraphicsObject** zato sto ona nasledjuje **Qobject** i **QGraphicsItem** i jos radi neke dodatne stvari
+		- ako zelimo da nasi item-i rade sa signalima i slotovima onda je potrebno da naslede QGraphicsObject
+		- i ako treba dodamo eventualne signale i slotove
+
+	- tabla je zaduzena za ...
+
 	- 
