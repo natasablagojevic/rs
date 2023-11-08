@@ -1,4 +1,4 @@
-# 6 Nedelja vezbi 08.12.2023.
+# 6 Nedelja vezbi 08.11.2023.
 
 - prvi presek stanja: do 02.12. ili 03.12 rok za predaju prve faze projekta
     - dijagrami, skice, dokumentacije
