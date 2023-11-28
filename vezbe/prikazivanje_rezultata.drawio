@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T15:51:04.191Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="po9iQ_QibzXXxblA-bZh" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T13:28:10.952Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="8d-JSZXu96Nd8mrGqooq" version="22.1.4" type="github">
   <diagram name="Page-1" id="3tIjExJiD3zBu5f5l794">
     <mxGraphModel dx="1114" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="2NlKpTRAE-zCWCaji5mN-3" value=": Aplikacija" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2NlKpTRAE-zCWCaji5mN-4" value=": Partija" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="2NlKpTRAE-zCWCaji5mN-4" value=": Chellenge" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="670" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2NlKpTRAE-zCWCaji5mN-5" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;labelBackgroundColor=none;" parent="1" vertex="1">
