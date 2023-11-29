@@ -1,0 +1,22 @@
+**Kratak opis**: Aplikacija prikazuje poene igrača koje je ostvario u partiji.
+
+**Akteri**: Igrač
+
+**Preduslovi**: Završeni su svi nivoi.
+
+**Postuslovi**: Aplikacija prikazuje glavni meni.
+
+**Osnovni tok**: <br>
+1. Aplikacija dohvata vrednosti rezultata koje je igrač postigao na kraju završenog poslednjeg nivoa. <br>
+2. Aplikacija dodeljuje poene igraču. <br>
+3. Igrač bira dugme "Nazad na meni". <br>
+
+
+**Alternativni tokovi**: <br>
+* A1: Neočekivani izlaz iz aplikacije: Ako u bilo kom koraku korisnik prekine aplikaciju, sve zapamćene informacije o partiji se poništavaju i aplikacija završava rad. Slučaj upotrebe je završen.
+
+**Podtokovi**: /
+
+**Specijalni zahtevi**: /
+
+**Dodatne informacije**: /	
