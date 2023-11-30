@@ -1,3 +1,7 @@
+> Notes: Da se svaki izazov opise kao poseban podtok mozda? a da se u osnovni tok stavi
+> kao uopsteni izazov
+
+
 **Kratak opis**: <br>
 Igrač na početku otvara prvi nivo, i dobija šest izazova koje sve treba da uradi tačno, kako bi na kraju dobio informaciju o novo otključanom nivou i prelasku na njega.
 
