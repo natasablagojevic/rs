@@ -1,51 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T11:54:14.552Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="BpnlPwtjGRVmfdfA-_Qe" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T13:38:24.531Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="FUjVinHg0QyqUgFCs-it" version="22.1.15" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1591" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_te6tKPuIWhx5ogqJqk4-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1510" y="40" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="_te6tKPuIWhx5ogqJqk4-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_te6tKPuIWhx5ogqJqk4-1">
-          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="_te6tKPuIWhx5ogqJqk4-3" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1460" y="400" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1545" y="400" />
-            </Array>
-            <mxPoint x="1630" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_te6tKPuIWhx5ogqJqk4-4" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1460" y="560" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1555" y="560" />
-            </Array>
-            <mxPoint x="1630" y="560" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_te6tKPuIWhx5ogqJqk4-5" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1630" y="440" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1555" y="440" />
-            </Array>
-            <mxPoint x="1465" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_te6tKPuIWhx5ogqJqk4-6" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1630" y="510" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1545" y="510" />
-            </Array>
-            <mxPoint x="1465" y="510" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_te6tKPuIWhx5ogqJqk4-7" value="Igrač" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="50" width="30" height="60" as="geometry" />
         </mxCell>
