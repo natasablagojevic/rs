@@ -1,0 +1,110 @@
+
+1. Aplikacija daje pravo igraču da započne igranje prvog nivoa
+2. Aplikacija otvara prvi nivo i niz izazova koje igrač treba da reši
+3. Sve dok se ne reše svi izazovi
+ 3.1 Otvara se izazov
+ 3.1.1 Aplikacija proverava da li je igrač uneo tačan odgovor
+  3.1.1.1 Ako je igrač uneo tačan odgovor, prelazi se na rešavanje drugog izazova
+  3.1.1.2 Ako je igrač uneo pogrešan odgovor (, dobija pravo da klikne na dugme hint i pokuša ponovo da odgovori na pitanje)
+  	3.1.1.2.1 Dobija mogucnost da klikne na dugme hint i da da tačan odgovori
+  	3.1.1.2.2 Ako ne da tacan odgovor, klikće na dugme "prikaži rešenje" i završava sa 
+ 3.1.2 Prelazi se na korak 3
+
+-------------------------------------------------------
+
+Osnovni tok:
+1. Aplikacija daje pravo igraču da započne igranje prvog nivoa
+2. Aplikacija otvara prvi nivo i niz od šest izazova koje igrač treba da reši 
+3. Otvara se prvi izazov
+ 3.1 Igrač dobija sliku mozgalice koju treba da složi
+  3.1.1 Ako igrač uspešno složi mozgalicu, prelazi na drugi izazov
+  3.1.2 Ako igrač pogreši, dobija hint
+   3.1.2.1 Ako odgovori tačno, prelazi na drugi izazov
+   3.1.2.2 Ako pogrešno odgovori, prikazuje mu se rešenje i prelazi na drugi izazov
+ 3.2 Prikaz edukativnog sadržaja
+
+4. Otvara se drugi izazov
+ 4.1 Igrač dobija hanojske kule koje treba da složi
+  4.1.1 Ako igrač uspešno složi hanojske kule, prelazi na treći izazov
+  4.1.2 Ako igrač pogreši, dobija hint
+   4.1.2.1 Ako odgovori tačno, prelazi na treći izazov
+   4.1.2.2 Ako pogrešno odgovori, prikazuje mu se rešenje i prelazi na treći izazov
+ 4.2 Prikaz edukativnog sadržaja
+ 4.3 Dobija slicicu koja se stavlja u inventar
+
+5. Otvara se trći izazov
+ 5.1 Igrač dobija reč koju treba da speluje morzeovim slovima
+  5.1.1 Ako igrač uspešno sepluje zadatu reč, prelazi na četvri izazov
+  5.1.2 Ako igrač pogreši, dobija hint
+   5.1.2.1 Ako uspešno da odgovor, prelazi na četvrti izazov
+   5.1.2.2 Ako je pokušaj bio neuspešan, prikazuje se rešenje i prelazi na četvrti izazov
+ 5.2 Prikaz edukativnog sadržaja
+
+6. Otvara se četvrti izazov 
+ 6.1 Igrač dobija kviz kojeg treba da reši
+  6.1.1 Ako igrač uspešno reši kviz, prelazi na peti izazov
+  6.1.2 Akog igrač pogreši, dobija hint
+   6.1.2.1 Ako uspešno da odgovori, prelazi na peti izazov 
+   6.1.2.2 Ako je pokušaj bio bezuspešan, prikazuje se rešenje i prelazi se na peti izazov
+ 6.2 Prikaz edukativnog sadržaja
+
+7. Otvara se peti izazov
+ 7.1 Igrač dobija dobija slova koja treba da permutira, kako bi došao do tačnog rešenja
+  7.1.1 Ako igrač uspešno ispermutuje slova, prelazi na šesti izazov
+  7.1.2 Ako igrač pogreši, dobija hint 
+   7.1.2.1 Ako uspešno odgovori na zadatak, prelazi na šesti nivo
+   7.1.2.2 Ako je pokušaj bio bezuspešan, prikazuje se rešenje i prelazi se na šesti nivo
+ 7.2 Prikaz edukativnog sadržaja
+
+8. Otvara se šesti izazov
+ 8.1 Igrač dobija sliku, i pritiskom na nju dobija šifru koju treba da reši
+  8.1.1 Ako igrač uspešno pogodi šifru, uspešno završava prvi nivo i prelazi na drugi
+  8.1.2 Ako igrač pogreši, dobija hint
+   8.1.2.1 Ako uspešno reši šifru, prelazi na drugi nivo
+   8.1.2.2 Ako je pokušaj bio bezuspešan, prikazuje se rešenje i prelazi se na drugi nivo
+ 8.2 Prikaz edukativnog sadržaja
+
+9. Aplikacija ažurira trenutno postignuti rezultat
+10. Prelazak na drugi nivo
+
+
+---------------------------------------------------------------------------------
+
+Osnovni tok:
+1. Aplikacija daje pravo igraču da započne igranje prvog nivoa
+2. Aplikacija otvara prvi nivo i niz izazova koje igrač treba da reši
+3. Sve dok se ne reše svi izazovi
+ 3.1 Otvara se izazov
+ 3.1.1 Aplikacija proverava da li je igrač uneo tačan odgovor
+  3.1.1.1 Ako je igrač uneo tačan odgovor, prelazi se na rešavanje drugog izazova
+  3.1.1.2 Ako je igrač uneo pogrešan odgovor (, dobija pravo da klikne na dugme hint i pokuša ponovo da odgovori na pitanje)
+  	3.1.1.2.1 Dobija mogucnost da klikne na dugme hint i da da tačan odgovor
+  	3.1.1.2.2 Ako ne da tacan odgovor, klikće na dugme "prikaži rešenje" i završava sa izazovom 
+ 3.1.2 Beleži se rezultat
+ 3.2 Prelazi se na korak 3
+
+
+/** 
+1. Aplikacija daje pravo igraču da započne igranje prvog nivoa
+2. Aplikacija otvara prvi nivo i niz izazova koje igrač treba da reši
+3. Sve dok se ne reše svi izazovi
+ 3.1 Otvara se prvi izazov
+ 3.2 Igrač rešava prvi izazov
+ 3.3 Ako je igrač odgovorio tačno na izazov, ažurira poene
+  3.3.1 Aplikacija prelazi na sledeći izazov 
+ 3.4 Ako igrač nije dao tačan odgovor ili ga ne zna
+  3.4.1 Dobija mogućnost da dobije hint, pritiskom na dugme hint
+  3.4.2 Nakon dobijenog hinta, dobija mogućnost da odgovori na pitanje
+  3.4.3 Ukoliko ne odgovori tačno na pitanje 
+
+
+
+ 3.1 Otvara se prvi izazov
+ 3.1.1 Aplikacija proverava da li je igrač uneo tačan odgovor
+  3.1.1.1 Ako je igrač uneo tačan odgovor, prelazi se na rešavanje drugog izazova
+  3.1.1.2 Ako je igrač uneo pogrešan odgovor, dobija pravo da klikne na dugme hint i pokuša ponovo da odgovori na pitanje
+  	3.1.1.2.1 Dobija mogucnost da klikne na dugme hint i da da tačan odgovori
+  	3.1.1.2.2 Ako i ovog puta odgovori pogrešno, igrica se završava
+ 3.1.2 Prelazi se na drugi izazov koji se treba rešiti
+
+**/

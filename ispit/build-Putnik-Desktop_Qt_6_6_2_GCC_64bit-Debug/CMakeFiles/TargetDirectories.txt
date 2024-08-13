@@ -1,0 +1,9 @@
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/Putnik.dir
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install.dir
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install/local.dir
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install/strip.dir
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/Putnik_autogen_timestamp_deps.dir
+/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Putnik-Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/Putnik_autogen.dir

@@ -1,0 +1,9 @@
+# ninja log v5
+13	1083	1717972138249970602	Vezba1_autogen/timestamp	bee04dc4bc8d9598
+13	1083	1717972138249970602	Vezba1_autogen/mocs_compilation.cpp	bee04dc4bc8d9598
+13	1083	1717972138249970602	/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Vezba1-Desktop_Qt_6_6_2_GCC_64bit-Debug/Vezba1_autogen/timestamp	bee04dc4bc8d9598
+13	1083	1717972138249970602	/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/ispit/build-Vezba1-Desktop_Qt_6_6_2_GCC_64bit-Debug/Vezba1_autogen/mocs_compilation.cpp	bee04dc4bc8d9598
+1084	8804	1717972145994077058	CMakeFiles/Vezba1.dir/Vezba1_autogen/mocs_compilation.cpp.o	2870cbf4c5bddcd8
+1084	8809	1717972145998077112	CMakeFiles/Vezba1.dir/main.cpp.o	7fe426320a0d999c
+1085	9129	1717972146322081567	CMakeFiles/Vezba1.dir/mainwindow.cpp.o	26b9b45ee2e80b3d
+9130	11940	1717972149126120106	Vezba1	31ab07fd8f39bfb5

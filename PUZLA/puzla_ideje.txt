@@ -1,0 +1,3 @@
+Za implementaciju Puzle bice potrebni:
+ 1. Slike koje sacinjavaju puzlu (milenijumska_kula)
+ 2. Main klasa za igranje puzle u BgChallenge-u je Puzla (puzla.hpp)
