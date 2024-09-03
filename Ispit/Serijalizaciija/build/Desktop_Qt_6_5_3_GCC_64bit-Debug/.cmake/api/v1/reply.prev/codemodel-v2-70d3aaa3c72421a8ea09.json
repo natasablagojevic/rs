@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1ec4e40d62bf6dc63df5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Serijalizaciija",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Serijalizaciija::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Serijalizaciija-Debug-af8e041d02baf1a108b3.json",
+					"name" : "Serijalizaciija",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Serijalizaciija_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Serijalizaciija_autogen-Debug-81f746a5d057e636ea76.json",
+					"name" : "Serijalizaciija_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Serijalizaciija_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Serijalizaciija_autogen_timestamp_deps-Debug-c615d6201af7200b31c3.json",
+					"name" : "Serijalizaciija_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Serijalizaciija/build/Desktop_Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Serijalizaciija"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
