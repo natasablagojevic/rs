@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-02cf25624982d83c9a37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Fluidi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Fluidi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fluidi-Debug-87d02f5d829d061fdda5.json",
+					"name" : "Fluidi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fluidi_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fluidi_autogen-Debug-94a7b96530ab24c742c4.json",
+					"name" : "Fluidi_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fluidi_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fluidi_autogen_timestamp_deps-Debug-196ff25a82fc675863f0.json",
+					"name" : "Fluidi_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Fluidi/build/Desktop_Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Fluidi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

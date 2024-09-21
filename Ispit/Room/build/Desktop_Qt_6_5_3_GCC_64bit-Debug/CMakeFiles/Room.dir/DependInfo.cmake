@@ -1,0 +1,28 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "Room_autogen/timestamp" "custom" "Room_autogen/deps"
+  "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Room/CellThread.cpp" "CMakeFiles/Room.dir/CellThread.cpp.o" "gcc" "CMakeFiles/Room.dir/CellThread.cpp.o.d"
+  "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Room/Room.cpp" "CMakeFiles/Room.dir/Room.cpp.o" "gcc" "CMakeFiles/Room.dir/Room.cpp.o.d"
+  "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Room/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/Room_autogen/mocs_compilation.cpp" "CMakeFiles/Room.dir/Room_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Room.dir/Room_autogen/mocs_compilation.cpp.o.d"
+  "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Room/Widget.cpp" "CMakeFiles/Room.dir/Widget.cpp.o" "gcc" "CMakeFiles/Room.dir/Widget.cpp.o.d"
+  "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Room/main.cpp" "CMakeFiles/Room.dir/main.cpp.o" "gcc" "CMakeFiles/Room.dir/main.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

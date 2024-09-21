@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c60241129f5f3d2aef3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Roboti",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Roboti::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Roboti-Debug-5a0a708d9bed9b67ab91.json",
+					"name" : "Roboti",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Roboti_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Roboti_autogen-Debug-4efd67dbad0ac2ac060c.json",
+					"name" : "Roboti_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Roboti_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Roboti_autogen_timestamp_deps-Debug-78cadd78f827139107f3.json",
+					"name" : "Roboti_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Roboti/build/Desktop_Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Roboti"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

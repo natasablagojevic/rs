@@ -33,6 +33,9 @@ private:
     void ucitajJson(const QString &filepath);
     void upisiJson(const QString &filepath, City *city);
 
+    void ucitajBin(const QString &filepath);
+    void upisiBin(const QString &filepath, City *city);
+
     QVector<City *> m_cities;
 
 };

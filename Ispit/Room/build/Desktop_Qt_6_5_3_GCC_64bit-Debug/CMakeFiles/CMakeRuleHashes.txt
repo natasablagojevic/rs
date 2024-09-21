@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+920878d85c0ab332b6f356399c336949 CMakeFiles/Room_autogen
+2499fd1b96298e5638d607f768e0797e Room_autogen/timestamp

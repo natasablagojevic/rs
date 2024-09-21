@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ebebe7ec69a55283e77b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Room",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Room::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Room-Debug-fbe2ec44515a4c4082a7.json",
+					"name" : "Room",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Room_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Room_autogen-Debug-aebe81c31ae492c3ea83.json",
+					"name" : "Room_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Room_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Room_autogen_timestamp_deps-Debug-02c0198954513d9aec60.json",
+					"name" : "Room_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Room/build/Desktop_Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/Room"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

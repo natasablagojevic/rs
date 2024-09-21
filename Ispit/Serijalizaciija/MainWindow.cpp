@@ -7,6 +7,7 @@
 #include <QFileDialog>
 #include <QFile>
 #include <iostream>
+#include <QDataStream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -26,7 +27,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::onUcitajPodatke()
 {
-    const auto filepaths = QFileDialog::getOpenFileNames(this, "Ucitaj fajlove", "../../..", "JSON (*.json)");
+    const auto filepaths = QFileDialog::getOpenFileNames(this, "Otvori fajlove", "../../..", "JSON (*.json)");
 
     qDeleteAll(m_cities);
     m_cities.clear();
@@ -37,20 +38,15 @@ void MainWindow::onUcitajPodatke()
 
     ui->lwPodaci->clear();
 
-    for (const auto &city : m_cities) {
+    for (const auto &city : m_cities)
         ui->lwPodaci->addItem(city->toQString());
-    }
+
 }
 
 void MainWindow::onUpisiPodatke()
 {
-    auto i = 0u;
-
     for (const auto &city : m_cities) {
-        auto filepath = "../../" + city->getName() + ".json";
-        i++;
-
-        std::cout << filepath.toStdString() << std::endl;
+        auto filepath = "../../ " + city->getName() + ".json";
 
         upisiJson(filepath, city);
     }
@@ -61,11 +57,12 @@ void MainWindow::ucitajJson(const QString &filepath)
     QFile file(filepath);
 
     if (file.open(QFile::ReadOnly)) {
+
         auto doc = QJsonDocument::fromJson(file.readAll());
-        const auto var = doc.toVariant();
+        const auto variant = doc.toVariant();
 
         auto city = new City();
-        city->fromQVariant(var);
+        city->fromQVariant(variant);
         m_cities.push_back(city);
 
         file.close();
@@ -77,13 +74,49 @@ void MainWindow::upisiJson(const QString &filepath, City *city)
     QFile file(filepath);
 
     if (file.open(QFile::WriteOnly)) {
-        auto doc = QJsonDocument::fromVariant(city->toQVariant());
 
+        auto doc = QJsonDocument::fromVariant(city->toQVariant());
         file.write(doc.toJson(QJsonDocument::JsonFormat::Indented));
 
         file.close();
     }
 }
+
+void MainWindow::ucitajBin(const QString &filepath)
+{
+    QFile file(filepath);
+
+    if (file.open(QFile::ReadOnly)) {
+
+        QDataStream stream(&file);
+        QVariant variant;
+
+        stream >> variant;
+
+        auto city = new City();
+        city->fromQVariant(variant);
+        m_cities.push_back(city);
+
+        file.close();
+    }
+
+}
+
+void MainWindow::upisiBin(const QString &filepath, City *city)
+{
+    QFile file(filepath);
+
+    if (file.open(QFile::WriteOnly)) {
+
+        QDataStream stream(&file);
+
+        stream << city->toQVariant();
+
+        file.close();
+    }
+}
+
+
 
 
 

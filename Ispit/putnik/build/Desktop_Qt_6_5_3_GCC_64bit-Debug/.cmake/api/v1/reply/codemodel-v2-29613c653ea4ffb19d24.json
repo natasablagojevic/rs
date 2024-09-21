@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-41d62536bbe65ad54073.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "putnik",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "putnik::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-putnik-Debug-7c0a72191eb14e21d897.json",
+					"name" : "putnik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "putnik_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-putnik_autogen-Debug-04d450b184680cc99b0b.json",
+					"name" : "putnik_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "putnik_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-putnik_autogen_timestamp_deps-Debug-a0a99ace0e576dc793e5.json",
+					"name" : "putnik_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/putnik/build/Desktop_Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/natasa/Desktop/Fakultet/4.god/7.sem/rs/Ispit/putnik"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
